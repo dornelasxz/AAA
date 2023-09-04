@@ -3,14 +3,13 @@
 int main(){
 
     int n;
-    int resultadoDivisao;
     int resto;
     int numerosnota;
     scanf("%d", &n);
 
     numerosnota = n / 100;
     resto = n % 100;
-    printf("%d nota(s) de R$ 100,00", numerosnota );
+    printf("%d nota(s) de R$ 100,00\n", numerosnota );
 
     numerosnota = resto / 50;
     resto = resto % 50;
